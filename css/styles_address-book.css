@@ -1,0 +1,83 @@
+#show-contact {
+  display: none;
+}
+body {
+  color:white;
+  text-shadow: 0 0 10px fuchsia;
+  background: rgba(0,0,255,1);
+  background: -moz-linear-gradient(left, rgba(0,0,255,1) 0%, rgba(0,255,0,1) 33%, rgba(255,255,0,1) 67%, rgba(255,0,0,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,255,1)), color-stop(33%, rgba(0,255,0,1)), color-stop(67%, rgba(255,255,0,1)), color-stop(100%, rgba(255,0,0,1)));
+  background: -webkit-linear-gradient(left, rgba(0,0,255,1) 0%, rgba(0,255,0,1) 33%, rgba(255,255,0,1) 67%, rgba(255,0,0,1) 100%);
+  background: -o-linear-gradient(left, rgba(0,0,255,1) 0%, rgba(0,255,0,1) 33%, rgba(255,255,0,1) 67%, rgba(255,0,0,1) 100%);
+  background: -ms-linear-gradient(left, rgba(0,0,255,1) 0%, rgba(0,255,0,1) 33%, rgba(255,255,0,1) 67%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(to right, rgba(0,0,255,1) 0%, rgba(0,255,0,1) 33%, rgba(255,255,0,1) 67%, rgba(255,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000ff', endColorstr='#ff0000', GradientType=1 );
+}
+.contact {
+  cursor: pointer;
+  color: white;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 200px;
+}
+.jumbotron {
+  background: rgba(255,0,0,1);
+  background: -moz-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,0,1)), color-stop(33%, rgba(255,255,0,1)), color-stop(67%, rgba(0,255,0,1)), color-stop(100%, rgba(0,0,255,1)));
+  background: -webkit-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+  background: linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff', GradientType=1 );
+
+  text-shadow: 0 0 15px fuchsia;
+
+}
+.jumbotron h1 {
+  font-size: 8rem;
+  text-align: center;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: hotpink;
+  border: none;
+  font-size: 2rem;
+}
+#sidebar-background {
+  background-color: rebeccapurple;
+  height: 800px;
+  color: palegreen;
+  border-radius: 30px;
+  padding: 40px;
+  border: 5px solid white;
+}
+h2{
+  margin-top: 0;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.active a {
+  border-radius: 50px;
+  background-color:   background: rgba(255,0,0,1);
+    background: -moz-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,0,1)), color-stop(33%, rgba(255,255,0,1)), color-stop(67%, rgba(0,255,0,1)), color-stop(100%, rgba(0,0,255,1)));
+    background: -webkit-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+    background: linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 33%, rgba(0,255,0,1) 67%, rgba(0,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff', GradientType=1 ) !important;
+}
+.nav-item a {
+  color:white !important;
+}
+ul {
+  margin: 0;
+}

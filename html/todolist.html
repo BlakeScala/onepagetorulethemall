@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/styles_todolist.css" media="screen" title="no title" charset="utf-8">
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/scripts_todolist.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-form navbar-left">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="places.html">Places</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="todolist.html">To Do List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="addressbook.html">Address Book</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>To Do List App</h1>
+      </div>
+    </div>
+    <div class="container">
+      <hr>
+      <form>
+        <div class="form-group">
+          <label for="toDoInput">Add a task to your list:</label>
+          <input id="toDoInput" type="text">
+          <button type="submit" class="btn btn-default" name="button">Submit</button>
+        </div>
+        <hr>
+        <h2 id="todo">To Do</h2>
+        <p>Click an entry to mark it as completed. <br> Click it again to make it dissapear!</p>
+        <ul id="output">
+
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles_address-book.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/scripts_address-book.js"></script>
+    <title>Address book</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-form navbar-left">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="places.html">Places</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="todolist.html">To Do List</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="addressbook.html">Address Book</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Address Book</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a Contact</h2>
+          <form id="new-contact">
+            <div class="form-group">
+              <label for="new-first-name">First name</label>
+              <input type="text" class="form-control" id="new-first-name">
+            </div>
+            <div class="form-group">
+              <label for="new-last-name">Last name</label>
+              <input type="text" class="form-control" id="new-last-name">
+            </div>
+
+            <div id="new-addresses">
+              <div class="new-address">
+                <div class="form-group">
+                  <label for="new-street">Street</label>
+                  <input type="text" class="form-control new-street">
+                </div>
+                <div class="form-group">
+                  <label for="new-city">City</label>
+                  <input type="text" class="form-control new-city">
+                </div>
+                <div class="form-group">
+                  <label for="new-state">State</label>
+                  <input type="text" class="form-control new-state">
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <button type="submit" class="btn btn-primary" id="addContact">Add Contact</button>
+                <button type="button" class="btn btn-danger" name="button" id="removeContacts">Clear Contact List Contact</button>
+              </div>
+              <div class="col-md-6">
+                <button type="button" class="btn btn-success" id="add-address">Add Additional Address</button>
+                <button type="button" class="btn btn-warning" id="removeAddress">Remove Additional Address</button>
+              </div>
+            </div>
+          </form>
+
+          <h2>Contacts</h2>
+          <p>Click an entry to see more information.</p>
+          <ul id="contacts">
+
+          </ul>
+        </div>
+
+        <div id="sidebar-background" class="col-md-6">
+          <div id="show-contact">
+            <h2></h2>
+            <p>First name: <span class="first-name"></span></p>
+            <p>Last name: <span class="last-name"></span></p>
+            <p>Addresses:</p>
+            <ul id="addresses">
+            </ul>
+            <!-- <img src="../img/polarbear.gif" alt="A polar bear shows the American Petroleum Institute what he thinks of them" /> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
